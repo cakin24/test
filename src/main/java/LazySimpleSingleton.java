@@ -6,6 +6,10 @@ public class LazySimpleSingleton {
         if(lazy == null)
         {
             lazy=new LazySimpleSingleton();
+            System.out.println("test");
+            System.out.println("test");
+            System.out.println("test");
+            System.out.println("test");
         }
         return lazy;
     }
